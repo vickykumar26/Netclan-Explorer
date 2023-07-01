@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/editprofile"
+        android:title="Edit Profile"
+        android:icon="@drawable/edit_profile"/>
+    <item
+        android:id="@+id/my_network"
+        android:title="My Network"
+        android:icon="@drawable/my_network"/>
+    <item
+        android:id="@+id/switch_business"
+        android:title="Switch to Business"
+        android:icon="@drawable/switch_to_business"/>
+    <item
+        android:id="@+id/merchant"
+        android:title="Switch to Merchant"
+        android:icon="@drawable/merchant"/>
+    <item
+        android:id="@+id/dating"
+        android:title="Dating"
+        android:icon="@drawable/dating"/>
+
+    <item
+        android:id="@+id/matrimony"
+        android:title="Matrimony"
+        android:icon="@drawable/matrimony"/>
+    <item
+        android:id="@+id/buy_sell_rent"
+        android:title="Buy-Sell-Rent"
+        android:icon="@drawable/buy_sell_rent"/>
+    <item
+        android:id="@+id/jobs"
+        android:title="Jobs"
+        android:icon="@drawable/jobs"/>
+    <item
+        android:id="@+id/business_card"
+        android:title="Business Cards"
+        android:icon="@drawable/businesscards"/>
+    <item
+        android:id="@+id/netclan_groups"
+        android:title="Netclan Groups"
+        android:icon="@drawable/groups"/>
+    <item
+        android:id="@+id/notes"
+        android:title="Notes"
+        android:icon="@drawable/notes"/>
+    <item
+        android:id="@+id/live_location"
+        android:title="Live Location"
+        android:icon="@drawable/location"/>
+
+</menu>

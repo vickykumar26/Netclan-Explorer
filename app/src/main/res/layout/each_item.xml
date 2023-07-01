@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    <ImageView
+        android:id="@+id/profile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/profile_img"
+        android:layout_marginTop="40dp"
+        android:elevation="30dp"
+        android:layout_marginStart="10dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="50dp"
+            android:elevation="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            app:cardCornerRadius="30dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="56dp">
+
+                <TextView
+                    android:id="@+id/invite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="+ INVITE"
+                    android:textColor="#153650"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_alignParentEnd="true"
+                    android:padding="16dp"/>
+
+                <TextView
+                    android:id="@+id/u_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shreya Shrivastava"
+                    android:textColor="#153650"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:layout_alignBottom="@+id/invite"/>
+
+                <TextView
+                    android:id="@+id/u_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shahjahanpur | Android Developer"
+                    android:textColor="#435C6F"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginStart="10dp"/>
+
+                <TextView
+                    android:id="@+id/u_distanace"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Within 100-200 m"
+                    android:textColor="#153650"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="68dp"/>
+
+                <TextView
+                    android:id="@+id/u_hobbies"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Coffee | Business | Friendship"
+                    android:textColor="#153650"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="96dp"/>
+
+                <TextView
+                    android:id="@+id/u_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/u_desc"
+                    android:textColor="#153650"
+                    android:textSize="18sp"
+                    android:layout_marginTop="128dp"/>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</RelativeLayout>

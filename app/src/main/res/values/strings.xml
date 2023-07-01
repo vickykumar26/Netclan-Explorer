@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Netclan Explorer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="u_desc">Hi community! I am open to new Connections.</string>
+    <string-array name="list_mode">
+        <item>Available | Hey Let Us Connect</item>
+        <item>Private Limited</item>
+        <item>Proprietor</item>
+        <item>Partnership firm</item>
+        <item>OPC</item>
+        <item>LLP</item>
+        <item>HUF</item>
+        <item>Limited company</item>
+        <item>Non Registered</item>
+    </string-array>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+</resources>
